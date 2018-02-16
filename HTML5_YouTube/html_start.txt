@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Manasseh's Website</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to my site!<h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Portfolio</li>
+			<li>Games</li>
+		</ul>
+	</nav>
+	
+	<aside>
+		
+	</aside>
+	
+	<footer>
+		Copyright Manasseh 2018
+	</footer>
+</body>
+
+</html>
