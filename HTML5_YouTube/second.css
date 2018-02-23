@@ -1,0 +1,6 @@
+p:nth-child(odd){color:green;}
+/*in the brackets if their is a number e.g 3 any third child will be turned green*/
+/* if odd is added to the brackets above every other child will be green*/
+p:nth-child(even){color:red;}
+/* every odd child would be green and every even child would be red*/
+/* formulas could also be added to the brackets e.g. to say I was every 3rd odd number to be green*/
