@@ -1,0 +1,36 @@
+*{
+	margin;)0px;
+	padding: 0px;
+}
+h1{
+	font: bold 20px Tahoma;
+}
+/* To change fonts all you need is the font weight 
+-bold/italic-, size and font*/
+h2{
+	font: bold 14px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+/*To make all HTML5 block elements compatible with other 
+elements, so they don't show up as in-line elements */
+
+body{
+	text-align:center;
+}
+/*this is also to make sure the body is centered- 
+to make sure it is compatible with other browsers */
+#big_wrapper{
+	border: 1px solid black;
+	width:1000px;
+	margin: 20px auto;
+	text-align:left;
+}
+/*Adds a main border to the body from the id of 
+the div tag big_wrapper*/
+#top_header{
+	background:yellow;
+	border: 1px solid blue;
+	padding: 20px;
+}
