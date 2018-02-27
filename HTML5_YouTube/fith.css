@@ -34,3 +34,46 @@ the div tag big_wrapper*/
 	border: 1px solid blue;
 	padding: 20px;
 }
+#top_menu{
+	background:blue;
+	color:white;
+}
+#top_menu li{
+	display:inline-block;
+	list-style:none;
+	padding: 5px;
+	font: bold 14px Tahoma;
+}
+#main_section{
+	float: left;
+	width: 660px;
+	margin: 30px;/*720px 280 left */
+	/* We have have a total pixel count of 720, it cannot 
+	exceed 1000px border of the whole site*/
+}
+#side_news{
+	float:left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
+}
+#the_footer{
+	clear:both;
+	text-align:center;
+	padding: 20px;
+	border-top: 2px solid green;
+}
+article{
+	background: #FFFBCC;
+	border: 1px solid red;
+	padding: 20px;
+	/*The padding only effects content of the article itself*/
+	margin-bottom: 15px
+	/*This will style all articles made in the same way*/
+}
+article footer{
+	text-align:right;
+}
+/*article footer will only apply to the footer in the article*/
+
