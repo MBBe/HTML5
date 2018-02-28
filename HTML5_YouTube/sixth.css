@@ -1,3 +1,4 @@
+/*tutorials 14-16*/
 *{
 	margin:0px;
 	padding:0px;
@@ -47,11 +48,51 @@ body{
 #top_menu{
 	border:red;
 	background:blue;
-	color:white:
+	color:white;
 }
 #top_menu li{
-	display:inline-block:
+	display:inline-block;
 	list-style:none;
 	padding:5px;
-	font bold 14px Century Gothic;
+	font: bold 14px Century Gothic;
 }
+#new_div{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+}
+#main_section{
+	border:1px solid blue;
+	-webkit-box-flex: 1;
+	margin: 20px;
+	padding: 20px;
+}
+#side_news{
+	border: 1px solid red;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
+}
+#the_footer{
+	text-align:center;
+	padding: 20px;
+	border-top: 2px solid green;
+}
+/* A trick is to keep one box dynamic an the other flexible*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
