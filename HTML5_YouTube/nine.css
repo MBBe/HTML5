@@ -1,0 +1,24 @@
+body{
+	text-align: center;
+}
+#box{
+	display:black;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border:1px solid blue;
+	background: orange;
+	-webkit-border-radius: 25px;
+	/*This adds rounded corners to the box*/
+	-webkit-box-shadow:rgb(110,110,110) 10px 10px 10px; 
+	/*This adds a shadow to the box. adding a third 
+	value, after the rgb values 1st 8px, 2nd 8px, 3rd 8px. 
+	Adding inset after the values will give the box a 
+	shadow effect of a button being pressed*/
+}
+#text{
+	font:bold 30px Century Gothic;
+	text-shadow:rgb(110,110,110) 3px 3px 5px;
+	/*This adds shadow to the text*/
+}
