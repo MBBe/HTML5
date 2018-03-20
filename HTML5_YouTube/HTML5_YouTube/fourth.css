@@ -1,0 +1,20 @@
+/*body > p {color:green;}*/
+/* This means any rule I write after div>p - it will effect any paragraph that has a div as a parent*/
+/* if the div was to be changed to the body - the grandparent of the p tag- 
+ * the rule to turn all p tag green wouldn't apply because the rule is only
+ * for the parent of the child and the body is the grandparent of the child
+ * not the parent.
+ */
+ 
+/*p.manasseh + p {color:blue;}*/
+
+/*This rule effects the second element when it immediately follows the first
+all paragraphs must be in the same class
+*/
+
+p.manasseh ~ p{color:blue;}
+/* the ~ sign is similar to the plus sign rule expect that if the list of paragraphs 
+had other elements between them it would still leave follow the same rule as with the plus sign
+however if the plus sign was used with other elements in between it would start the rule all over
+again instead of carrying on.
+*/

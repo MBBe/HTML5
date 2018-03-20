@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+}
+#box{
+	display:block;
+	margin:150px auto;
+	color:#ffffff;
+	-webkit-border-radius:10px;
+	opacity:0.6;
+	background:red;
+	width:120px;
+	height:75px;	
+}
+#box:hover{
+	
+}
+/*for html file 24 Making Awesome roll over buttons*/

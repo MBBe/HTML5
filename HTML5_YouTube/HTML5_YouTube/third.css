@@ -1,0 +1,5 @@
+* {color:blue;}
+/* an asterisk tag means to effect everything */
+
+:not(.boyd) {color:red;}
+/* this rule means everything that is not in the Class boyd colour red*/

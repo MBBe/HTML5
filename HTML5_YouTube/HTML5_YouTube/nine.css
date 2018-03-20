@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+}
+#box{
+	display:black;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	
+	border:1px solid orange;
+	/*background:-webkit-linear-gradient(top,orange,white);*/
+	/*the webkit linear gradient takes in three parameters. 
+	1st where the colour starts from in this case the top. 
+	the 2nd is the first colour and the 3rd parameter is 
+	the second colour that blends with the first*/
+	/*To have the colours fade at an angle change the first 
+	value, top, to a degree value e.g 45deg to fad e at an angle*/
+	
+	background:-webkit-radial-gradient(center,circle,red 0%,orange 50%);
+	/*radial gradient has the colour start from a circle in the middle 
+	and having the first colour fade into the second colour. The parameter 
+	starts with the position of the colour the shape the colour will fill, 
+	the percent you want the colour to fade at and then the second colour 
+	and its percent of fade */
+	
+	-webkit-border-radius: 25px;
+	/*This adds rounded corners to the box*/
+	
+	-webkit-box-shadow:rgba(110,110,110,.7) 10px 10px 10px; 
+	/*This adds a shadow to the box. adding a third 
+	value, after the rgb values 1st 8px, 2nd 8px, 3rd 8px. 
+	Adding inset after the values will give the box a 
+	shadow effect of a button being pressed. Adding the 
+	alpha value to rgb will determine how light the shadow 
+	will be, the lower the number the lighter shade???*/
+}
+#text{
+	font:bold 30px Century Gothic;
+	text-shadow:rgb(110,110,110) 3px 3px 5px;
+	/*This adds shadow to the text*/
+}

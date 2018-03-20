@@ -1,0 +1,34 @@
+body{
+	text-align: center;
+}
+#box{
+	display:black;
+	width:500px;
+	margin:50px auto;
+	padding:15px;
+	text-align:center;
+	border:7px solid blue;
+	background:yellow;
+	outline:7px solid red;
+	-webkit-transform:translate(100px,100px) rotate(30deg) rotate(30deg) scale(-.8);
+	/*
+	* webkit-transform: scale, transforms the box. 
+	*Scale- makes the box either bigger or smaller using a decimal point s-1.5 or b 
+	*To change the scale on the x and y axis separate the numbers with a comma 
+	*Making the first number negative one to one separated by a comma this 
+	* will switch the letters around. 
+	*rotate- will turn the box depending the on the degree given 45deg
+	*skew- will give the box and italic shape when given a degree e.g. 30deg
+	*translate- would move the element in this case the box. 
+	* When specifying how to move the box, translate takes pixels, 
+	* so the first pixel the X axis will move the box  left to right, 
+	* the second pixel, the Y axis will move the box up and down. 
+	* Use minus pixel values to move in the opposite directions.
+	* To use multiple values, like all the ones stated above they 
+		all need to put on one line after -webkit-transform;
+	*/
+}
+#text{
+	font:bold 30px Century Gothic;
+	
+}

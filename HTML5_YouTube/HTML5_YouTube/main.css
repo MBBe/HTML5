@@ -1,0 +1,5 @@
+p[name^= "tuna"]{color:blue;}
+<!-- If the value starts with the word tuna the '^' carrot sign will effect the value in this case tuna will turn blue-->
+<!-- the dolar sign $ means antthing that ends with tuna will be affect, in this case it will turn blue-->
+<!-- The asteritcs sign * means as long as the word bacon turns up anywhere in the value the whole sentance/ value will turn blue -->
+
